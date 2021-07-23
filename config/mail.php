@@ -47,7 +47,7 @@ return [
     |
     */
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'noreply@diomio.ch'),
+        'address' => env('MAIL_FROM_ADDRESS', 'noreply@your-domain.com'),
         'name' => env('MAIL_FROM_NAME', 'from'),
     ],
     /*
@@ -71,8 +71,8 @@ return [
     | connection. You may also set the "password" value below this one.
     |
     */
-    'username' => env('MAIL_USERNAME', 'abomio.diomio@gmail.com'),
-    'password' => env('MAIL_PASSWORD', 'ModdatherRashed123'),
+    'username' => env('MAIL_USERNAME', 'your-email@gmail.com'),
+    'password' => env('MAIL_PASSWORD', 'YourPassword'),
     /*
     |--------------------------------------------------------------------------
     | Sendmail System Path
