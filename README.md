@@ -79,3 +79,7 @@ to configure the SMTP you need to go to ```config/mail.php``` and change the cre
 ## Runing the project
 
 using ```php -S localhost:8000 -t public```
+
+## Notes
+
+This project is made within one month with a mobile app and a website so THIS IS NOT A BEST PRACTICE, while i am writing the code i did mention what needed to be re-wriiten, so feel free to conterpuite.
