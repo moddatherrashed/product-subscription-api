@@ -33,7 +33,9 @@ Please see configuration section below for configuring the project.
 
 ## Configuration
 
-your configuration should be in ```.env``` file, which has to contain the following:
+### ```.env``` file
+
+ which has to contain the following:
 
 ```
 APP_NAME=product_subscription_system
@@ -70,7 +72,10 @@ CASHIER_LOGGER=stack
 FIREBASE_SERVER_KEY=your-key
 
 ```
+### SMTP
 
-### Runing the project
+to configure the SMTP you need to go to ```config/mail.php``` and change the credentials to yours.
+
+## Runing the project
 
 using ```php -S localhost:8000 -t public```
